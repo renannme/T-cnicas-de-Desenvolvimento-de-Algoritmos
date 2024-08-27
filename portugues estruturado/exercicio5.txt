@@ -1,0 +1,24 @@
+Algoritmo "Exerc5"
+inicio
+var
+	real numero1,numero2,soma,multiplicacao,subtracao,divisao,resto
+
+escreva (“insira o primeiro número: ”)
+leia (numero1)
+
+escreva (“insira o segundo número: ”)
+leia (numero2)
+
+soma = numero1 + numero2
+multiplicacão = numero1 * numero2
+subtracao = numero1 - numero2
+divisao = numero1 / numero2
+resto = numero1 % numero2
+
+escreva (“A soma dos números deu : ”+soma)
+escreva (“A multiplicação dos números deu : ”+multiplicacao)
+escreva (“A subtração dos números deu : ”+subtracao)
+escreva (“A divisão dos números deu : ”+divisao)
+escreva (“e o resto dessa divisão foi : ”+resto)
+
+fim

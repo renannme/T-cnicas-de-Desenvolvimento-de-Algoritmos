@@ -1,0 +1,26 @@
+Algoritmo "Exerc1"
+inicio
+var
+	real ladoAblocoVermelho,ladoBblocoVermelho
+        real ladoAblocoAzul,ladoBblocoAzul
+        real areaBlocoVermelho, areaBlocoAzul
+
+escreva (“informe o primeiro lado do quadrado vermelho”)
+leia (ladoAblocoVermelho)
+
+escreva (“informe o segundo lado do quadrado vermelho”)
+leia (ladoBblocoVermelho)
+
+escreva (“informe o primeiro lado do quadrado azul”)
+leia (ladoAblocoAzul)
+
+escreva (“informe o segundo lado do quadrado azul”)
+leia (ladoBblocoAzul)
+
+areaBlocoVermelho = ladoAblocoVermelho * ladoBblocoVermelho
+areaBlocoAzul = ladoAblocoAzul * ladoBblocoAzul
+
+escreva (“area do quadrado vermelho”+areaBlocoVermelho)
+escreva (“area do quadrado azul”+areaBlocoAzul)
+
+fim

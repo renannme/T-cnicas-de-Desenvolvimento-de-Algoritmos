@@ -1,0 +1,34 @@
+Algoritmo "Exerc2"
+inicio
+var
+	real quantidade1,valor1,quantidade2,valor2,quantidade3,valor3,subtotal1,subtotal2,subtotal3,total
+
+escreva (“informe a quantidade do primeiro produto:”)
+leia (quantidade1)
+
+escreva (“informe o unitário do primeiro produto:”)
+leia (valor1)
+
+escreva (“informe a quantidade do segundo produto:”)
+leia (quantidade2)
+
+escreva (“informe o unitário do segundo produto:”)
+leia (valor2)
+
+escreva (“informe a quantidade do terceiro produto:”)
+leia (quantidade3)
+
+escreva (“informe o unitário do terceiro produto:”)
+leia (valor3)
+
+subtotal1 = quantidade1*valor1
+subtotal2 = quantidade2*valor2
+subtotal3 = quantidade3*valor3
+total = subtotal1 + subtotal2 + subtotal3
+
+escreva (“o subtotal do primeiro produto foi: ”+subtotal1)
+escreva (“o subtotal do segundo produto foi: ”+subtotal2)
+escreva (“o subtotal do terceiro produto foi: ”+subtotal3)
+escreva (“o total dos produtos foi: ”+total)
+
+fim

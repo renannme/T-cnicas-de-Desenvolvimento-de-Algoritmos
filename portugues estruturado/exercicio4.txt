@@ -1,0 +1,18 @@
+Algoritmo "Exerc4"
+inicio
+var
+	real comida,bebidas,serviço,total,consumo
+
+escreva (“Obrigador por comer no nosso restaurante, por favor informe quanto foi seu consumo de comidas: ”)
+leia (comida)
+
+escreva("informe quando foi seu consumo de bebidas")
+leia(bebida)
+
+consumo = comida + bebida
+serviço = consumo * 0.1
+total = consumo + serviço
+
+escreva (“Sua conta deu: ”+total+ " incluindo a taxa de serviço")
+
+fim
