@@ -10,13 +10,13 @@ public class Exercicio2 {
         System.out.println("informe a quantidade do primeiro produto:");
         quantidade1 = obj.nextDouble();
         
-        System.out.println("informe o unitário do primeiro produto:");
+        System.out.println("informe o valor unitário do primeiro produto:");
         valor1 = obj.nextDouble();
         
         System.out.println("informe a quantidade do segundo produto:");
         quantidade2 = obj.nextDouble();
         
-        System.out.println("informe o unitário do segundo produto:");
+        System.out.println("informe o valor unitário do segundo produto:");
         valor2 = obj.nextDouble();
         
         System.out.println("informe a quantidade do terceiro produto:");
