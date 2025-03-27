@@ -1,20 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package listademercado;
 
-/**
- *
- * @author RENANNASSARMOREIRA
- */
+import java.util.Scanner;
+
 public class ListaDeMercado {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+       new ListaDeMercado(); 
     }
     
+    public ListaDeMercado(){
+        String [] compras = new String[20];
+        System.out.println("Digite os itens que voce vai comprar: ");
+        registraItens(compras);
+    }
+    
+    public String [] registraItens(String[] compras){
+        Scanner obj = new Scanner(System.in);
+        for(int i=0;i<compras.length;i++){
+          System.out.println("Digite o item de numero "+ (i+1) + " da sua lista: "); 
+          compras[i]=obj.nextLine();
+        }
+        return compras;
+    }
 }
