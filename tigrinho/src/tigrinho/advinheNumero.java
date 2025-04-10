@@ -16,7 +16,7 @@ public class advinheNumero {
         System.out.println("resposta: "+sorteado);
         int numeroInformado;
         int falhou = 0;
-        for(int i =0; i<5;i++){
+        for(int i =0; i<9;i++){
             System.out.println("digite um numero: ");
             numeroInformado = obj.nextInt();
             if(sorteado==numeroInformado){
@@ -46,3 +46,4 @@ public class advinheNumero {
        
     }
 }
+//int diferenca = Math.abs(this.numeroSorteado - tentativa);
